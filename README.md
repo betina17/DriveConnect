@@ -1,8 +1,8 @@
-#Overview
+## Overview
 
-This application is designed for real-time communication and incident reporting between drivers. Developed in C++, the application leverages Object-Oriented Programming (OOP) principles to create a modular codebase. It features a layered architecture, separating the domain logic, data access, and user interface into distinct layers . The graphical user interface is built using the Qt framework, providing a user-friendly experience. The application employs the Observer design pattern to keep all instances in sync, particularly for real-time chat and report updates.
+This application is designed for real-time communication and incident reporting between drivers. Developed in C++, the application leverages Object-Oriented Programming (OOP) principles to create a modular codebase. It features a layered architecture, separating the domain logic, data access, and user interface into distinct layers . The graphical user interface is built using the **Qt framework**, providing a user-friendly experience. The application employs the **Observer design pattern** to keep all instances in sync, particularly for real-time chat and report updates.
 
-#Description
+## Description
 
 • The application reads information about all registered drivers from a text file at startup. Each Driver has a name (string), a current location (latitude and longitude), and a score.
 
